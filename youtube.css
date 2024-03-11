@@ -12,3 +12,25 @@ p {
 .search-bar {
     display: block;
 }
+.tooltip {
+    position: absolute;
+    max-width:284px;
+    padding: 4px 8px;
+    background-color: rgb(239, 239, 239);
+    text-align: center;
+    z-index: 10;
+    width: 300px;
+    height: 36px;
+    top: 68px;
+    left: 80px;
+    display: none;
+    opacity: 0;
+    transition: 0.5s;
+}
+.thumbnail-container {
+    position: relative;
+}
+.thumbnail-container:hover .tooltip {
+    display: block;
+    opacity: 1;
+}
