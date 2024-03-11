@@ -1,0 +1,23 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 12px;
+    row-gap: 24px;
+}
+.first, .second, .third {
+    height: 200px;
+    text-align: center;
+    vertical-align: top;
+}
+p {
+    margin: 88px 0 0 0;
+}
+.first {
+    background-color: lightblue;
+}
+.second {
+    background-color: lightpink;
+}
+.third {
+    background-color: lightgreen;
+}
