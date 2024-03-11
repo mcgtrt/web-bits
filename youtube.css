@@ -23,14 +23,12 @@ p {
     height: 36px;
     top: 68px;
     left: 80px;
-    display: none;
     opacity: 0;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .thumbnail-container {
     position: relative;
 }
 .thumbnail-container:hover .tooltip {
-    display: block;
     opacity: 1;
 }
