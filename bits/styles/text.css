@@ -1,0 +1,87 @@
+p {
+    font-family: Roboto;
+    margin: 0 0 0 0;
+}
+.video-title {
+    font-size: 20px;
+    font-weight: bold;
+    width: 320px;
+    line-height: 24px;
+    margin-bottom: 8px;
+}
+.video-stats {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 24px;
+}
+.video-author {
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    margin-bottom: 24px;
+}
+.video-description {
+    width: 320px;
+    font-size: 14px;
+    color: rgb(96, 96, 96);
+    line-height: 18px;
+    margin-bottom: 32px;
+}
+.shop-message {
+    padding: 20px 44px;
+    color: white;
+    background-color: rgb(227, 65, 64);
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 64px;
+}
+.hover-link {
+    cursor: pointer;
+}
+.hover-link:hover {
+    text-decoration: underline;
+}
+.text-container {
+    text-align: center;
+}
+.apple-new {
+    color: rgb(197, 133, 14);
+    margin-bottom: 4px;
+}
+.apple-product-name {
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.apple-product-title {
+    font-size: 36px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+.apple-button {
+    margin-top: 12px;
+    color: white;
+    background-color: rgb(74, 113, 255);
+    border: none;
+    padding: 8px 16px;
+    border-radius: 16px;
+    margin-bottom: 64px;
+}
+.stock-price {
+    font-size: 32px;
+}
+.stock-price-currency {
+    color: grey;
+    font-size: 16px;
+    vertical-align: bottom;
+}
+.stock-price-change {
+    color: rgb(22, 147, 22);
+    margin: 8px 0;
+}
+.stock-after-hours {
+    color: grey;
+}
+.stock-after-hours-difference {
+    color: rgb(236, 58, 58);
+}
