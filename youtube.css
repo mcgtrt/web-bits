@@ -4,8 +4,11 @@ p {
 .thumbnail {
     width: 300px;
 }
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 .video-preview {
-    display: inline-block;
     width: 300px;
     margin-right: 12px;
 }
@@ -31,4 +34,9 @@ p {
 }
 .thumbnail-container:hover .tooltip {
     opacity: 1;
+}
+@media(max-width: 864px) {
+    .video-grid {
+        grid-template-columns: 1fr;
+    }
 }
