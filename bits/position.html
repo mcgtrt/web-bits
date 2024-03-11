@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .header {
+            position: fixed;
+            background-color: black;
+            color: white;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 50px;
+            z-index: 10;
+        }
+        .box {
+            background-color: brown;
+            color: white;
+            height: 200px;
+            margin-bottom: 20px;
+        }
+        .sidebar {
+            position: fixed;
+            top: 50px;
+            background-color: red;
+            color: white;
+            left: 0;
+            bottom: 0;
+            width: 50px;
+        }
+        .absolute {
+            bottom: 100px;
+            right: 0;
+            background-color: coral;
+            position: absolute;
+            padding: 20px;
+        }
+        .relative {
+            position: relative;
+        }
+        .relative-absolute {
+            background-color: black;
+            color: white;
+            position: absolute;
+            bottom: 8px;
+            right: 8px;
+        }
+    </style>
+</head>
+<body style="height: 3000px; padding: 60px 0 0 60px">
+    <div>
+        <div class="header">Header</div>
+        <div class="sidebar">Sidebar</div>
+        <div class="container">
+            <div class="box">div1</div>
+            <div class="box relative" style="background-color: green;">
+                div2
+                <div class="relative-absolute">
+                    relative
+                </div>
+            </div>
+            <div class="absolute">absolute</div>
+        </div>
+    </div>
+</body>
+</html>
